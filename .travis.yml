@@ -13,6 +13,13 @@ script:
   - hugo version # prints the Hugo version, just in case.
   - hugo # build the website
 
+deploy:
+  provider: firebase
+  token:
+    secure: "QOt5aC2wERZ/UZadDw6KVFMDWVYUXM+7Fj8APU2pwHAXOt/1EAjTqQPqWDMZNYG6Vfd1JcTjcweT3gFmd887W7zh0AMztjxc19Np6u+Jrh7SGBUtMOOI4NMnXDuBZsJ/Nh6aAoitnCADzklpt8EkUfSxsj0eIeinr/tq17EHsc1IgBwZf6qHZxnX0wL8Lpf8BPnmcz+3kkzN39gLRGvC3dqjoUWfVHBHTjOQ5n9/U7+HGWoOvBPxDqV6ypvfVZfLCVuUp0HcVn/JhsOxUaON0FcYvyhIy4pUAEdhfxJXhHB+ie7ptw8Jau1ucViqNbKXSMAMHKC28EyGKhGtc7dGUAT/PaDpg9xFD9YAXX/Zx8JMrJrPRH+OkeQsvNDPnZACdeNcx3rn/mn3RJF+xft5bMZsT/3JaSTE0k0F+8hZ5/aPVj5NIxk8vDJWAHVUP35I+EQmfjhcL4SEUQvjKckFi9gCAr2qInQXGzPdY9JSt6ctXG+UhJfs+HMj7PJHyTTb3ttZJUAStpQaQLrO/gKJnjO8Mbj9urImaW9FZrVDHllpPxYpSd1tjl1vqMJiOeRvnCN4pVHssqHyDjDyGn1ne0EK3/4q9h08Zvx3Mur5ZkO2Et0as1PVOmrmVeJAINolbOLJNYCL+Xewdd7qOEdolGk3mFhb67a4WPIKboABC/w="
+  on:
+    branch: master
+
 env:
   global:
     - PRODUCTION=true
