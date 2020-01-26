@@ -26,7 +26,7 @@ This is the code for the client. It creates a proxy to the server and sends a te
 
 <script src="https://gist.github.com/biancarosa/ff552e5d7244112e9e71267b5211be6d.js"></script>
 
-And this is the code for the server. It locates a name server (Pyro comes with one and you just need to use it with `python -m Pyro4.naming`sin the same machine as the server).
+And this is the code for the server. It locates a name server (Pyro comes with one and you just need to use it with `python -m Pyro4.naming` in the same machine as the server).
 
 <script src="https://gist.github.com/biancarosa/26f52dbbeadfa63d725d561eafa52a0e.js"></script>
 
