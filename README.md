@@ -1,3 +1,3 @@
-[![Build Status](https://travis-ci.org/biancarosa/blog.svg?branch=master)](https://travis-ci.org/biancarosa/blog)
+[![Build Status](https://travis-ci.com/biancarosa/blog.svg?branch=master)](https://travis-ci.com/biancarosa/blog)
 ---
 Yet another developer's website.
