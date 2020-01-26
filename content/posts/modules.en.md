@@ -9,7 +9,7 @@ date = "2017-08-30"
 categories = [
     "development"
 ]
-highlight = "true"
+author = "@__biancarosa"
 +++
 
 We code everyday. We produce code fast, following the rhythm of the rock and roll guitar playing in the background and every time we focus on writing code fast, we miss some important things that makes us lose time in the future.

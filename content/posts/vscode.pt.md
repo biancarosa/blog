@@ -10,7 +10,7 @@ date = "2017-10-12"
 categories = [
     "desenvolvimento"
 ]
-highlight = "true"
+author = "@__biancarosa"
 +++
 
 Eu tenho uma tendência a não gostar da Microsoft. Uma mistura de experiência, preconceito, filosofias que não batem.

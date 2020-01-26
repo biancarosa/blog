@@ -10,6 +10,7 @@ date = "2018-03-17"
 categories = [
     "development"
 ]
+author = "@__biancarosa"
 +++
 
 This is the first of a series of posts that I will write to share some knowledge I gained on Python Web Frameworks plus a nice, public way to push me into learning more and more about them.
