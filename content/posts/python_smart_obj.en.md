@@ -1,18 +1,14 @@
 +++
 title = "Writing distributed applications with Python Smart Objects as a Java RMI alternative"
-description = ""
 tags = [
     "python",
     "development",
-    "distributed-systems",
-    "en"
+    "distributed-systems"
 ]
 date = "2018-08-13"
 categories = [
-    "development",
-    "en"
+    "development"
 ]
-highlight = "true"
 +++
 
 Hello there! :)

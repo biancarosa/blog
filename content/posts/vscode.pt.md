@@ -4,13 +4,11 @@ description = ""
 tags = [
     "editor",
     "produtividade",
-    "desenvolvimento",
-    "pt-br"
+    "desenvolvimento"
 ]
 date = "2017-10-12"
 categories = [
-    "desenvolvimento",
-    "pt-br"
+    "desenvolvimento"
 ]
 highlight = "true"
 +++

@@ -4,16 +4,12 @@ description = ""
 tags = [
     "python",
     "django",
-    "web",
-    "development",
-    "en"
+    "development"
 ]
 date = "2018-03-17"
 categories = [
-    "development",
-    "en"
+    "development"
 ]
-highlight = "true"
 +++
 
 This is the first of a series of posts that I will write to share some knowledge I gained on Python Web Frameworks plus a nice, public way to push me into learning more and more about them.

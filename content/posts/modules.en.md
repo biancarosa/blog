@@ -3,13 +3,11 @@ title = "Why you should choose your Python module names more carefully"
 description = ""
 tags = [
     "python",
-    "development",
-    "en"
+    "development"
 ]
 date = "2017-08-30"
 categories = [
-    "development",
-    "en"
+    "development"
 ]
 highlight = "true"
 +++
