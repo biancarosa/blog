@@ -18,7 +18,7 @@ Os requisitos mudam de vaga pra vaga, e é importante você saber pra qual empre
 
 ## Conhecimento básico de programação
 
-**Saber a sintaxe de uma linguagem de programação é importante.** Lembrando que não precisa saber tudo, é sempre OK errar coisas simples como esquecer um ponto e vírgular, usar chaves ao invés de identação. Pesquisar coisas relacionadas a bibliotecas porque você não lembra também é aceitável, **não é aceitável não saber fazer um fluxo simples com if/else, while**. Quando eu falo de fluxo simples, eu digo uma calculadora básica, por exemplo. Você tem que saber escrever ela *tranquilamente* na sua linguagem de escolha, mesmo que pesquise um erro ou outro na internet.
+**Saber a sintaxe de uma linguagem de programação é importante.** Lembrando que não precisa saber tudo, é sempre OK errar coisas simples como esquecer um ponto e vírgula, usar chaves ao invés de indentação. Pesquisar coisas relacionadas a bibliotecas porque você não lembra também é aceitável, **não é aceitável não saber fazer um fluxo simples com if/else, while**. Quando eu falo de fluxo simples, eu digo uma calculadora básica, por exemplo. Você tem que saber escrever ela *tranquilamente* na sua linguagem de escolha, mesmo que pesquise um erro ou outro na internet.
 
 **Saber ler os erros e tentar descobrir sozinho que está acontecendo antes de jogar na internet** é uma coisa que te deixa super bem treinado pra resolver problemas no seu código. Usar a internet pra tudo não vai funcionar sempre e no trabalho você não pode jogar seu código pra outra pessoa de fora da empresa ver o que está dando errado. Você vai ter colegas de time que vão te ajudar, mas é importante *tentar* resolver antes. **O erro fala com você**, tente entender o que ele diz.
 
@@ -38,7 +38,7 @@ Não seja uma pessoa babaca. Isso geralmente significa:
 - Tentar fazer *pair-programming* sempre que possível.
 - Tentar ajudar as pessoas ao seu redor, e não apenas sugar o conhecimento delas. Sempre tem alguém que sabe menos do que você.
 
-Além disso, é portante *saber pedir ajuda* e *se comunicar*. Se a pessoa não entendeu a sua dúvida, tente *refrasear* ela.
+Além disso, é importante *saber pedir ajuda* e *se comunicar*. Se a pessoa não entendeu a sua dúvida, tente *refrasear* ela.
 
 ## Dicas pro desafio técnico
 
