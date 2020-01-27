@@ -51,7 +51,7 @@ Além disso, é portante *saber pedir ajuda* e *se comunicar*. Se a pessoa não 
 
 ## O que eu fiz quando queria um emprego na área
 
-- Aprendi uma linguagem de programação de forma mais focada e resolver problemas simples e comuns com ela.
+- Aprendi uma linguagem de programação de forma mais focada e aprendi a resolver problemas simples e comuns com ela: ler entrada e saída, ler arquivos, percorrer listas, fazer operações com strings e números.
 - Fiz um curso que me deu todo o panorama de como as coisas se conectam na Web e me ensinou a fazer o *básico* em tudo: front-end, API, back-end e banco de dados.
 - Aprendi sobre metodologias ágeis e sobre como trabalhar em time.
 
