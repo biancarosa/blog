@@ -22,7 +22,7 @@ Os requisitos mudam de vaga pra vaga, e é importante você saber pra qual empre
 
 **Saber ler os erros e tentar descobrir sozinho que está acontecendo antes de jogar na internet** é uma coisa que te deixa super bem treinado pra resolver problemas no seu código. Usar a internet pra tudo não vai funcionar sempre e no trabalho você não pode jogar seu código pra outra pessoa de fora da empresa ver o que está dando errado. Você vai ter colegas de time que vão te ajudar, mas é importante *tentar* resolver antes. **O erro fala com você**, tente entender o que ele diz.
 
-Se sua praia é back-end: faça um CRUD, com banco de dados, API rest. Se for uma pessoa mais ousada, faça um front-end mesmo que feio se não for a sua praia.
+Se sua praia é back-end: faça um CRUD, com banco de dados, uma API RESTful. Se for uma pessoa mais ousada, faça um front-end mesmo que feio se não for a sua praia.
 Se sua praia é front-end/mobile: faça um front-end com mock da API. Se estiver se sentindo ousado, faça a API também. Vai ser legal.
 Se sua praia é dados: suba um jupyter notebook e plote gráficos relacionados a algum dado público.
 *Faça isso algumas vezes, em projetos pequenos, públicos no seu github.*
