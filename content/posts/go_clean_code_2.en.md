@@ -50,7 +50,7 @@ import "ring"
 ring := ring.New()
 {{< / highlight >}}
 
-Good package names are *very* important to writing a code that's nice and easy to read. I also believe [this](https://blog.golang.org/package-names) blog post regarding package names!
+Good package names are *very* important to writing a code that's nice and easy to read. I also believe [this](https://blog.golang.org/package-names) blog post regarding package names is a great resource!
 
 So, that pretty much sums up what I what to say. I strongly recommend reading the references!
 
