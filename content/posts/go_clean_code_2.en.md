@@ -12,7 +12,7 @@ categories = [
 author = "@__biancarosa"
 +++
 
-This is a second post of a series that started [here](https://biancarosa.com.br/posts/go_clean_code_1/) based on a talk I gave about Go and Clean Code(slides [here](https://slides.com/biancarosa__/go-clean-code), in Portuguese)
+This is a second post of a series that started [here](https://biancarosa.com.br/posts/go_clean_code_1/) based on a talk I gave about Go and Clean Code(slides [here](https://slides.com/bianca_rosa/go-clean-code), in Portuguese)
 
 Now I'm gonna talk about package names and how to choose package names in the Go way.
 
