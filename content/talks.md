@@ -6,6 +6,8 @@ author = "@__biancarosa"
 
 # Talks
 
+- [Otimizando imagens docker com multi-stage builds](https://slides.com/bianca_rosa/otimizando-imagens-docker-com-multi-stage-builds) - Docker Rio Meetup, Remote, 23/04/2020
+
 - [Python On Kubernetes](https://slides.com/biancarosa__/python-on-kubernetes#/) - Python Brasil 2019, Ribeirão Preto - SP, 07/09/2019
 
 - [Processando milhões de mensagens com Python e Kubernetes](https://slides.com/biancarosa__/consumindo-msgs-python-k8s#/) - PyladiesBR Conf, São Paulo - SP, 26/10/2019
