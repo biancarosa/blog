@@ -14,12 +14,12 @@ author = "@__biancarosa"
 
 Oi.
 
-Falei um pouco sobre Go e Clean Code em alguns meetups e na última Gophercon Brasil em 2019 (slides [aqui](https://slides.com/biancarosa__/go-clean-code)) 
+Falei um pouco sobre Go e Clean Code em alguns meetups e na última Gophercon Brasil em 2019 (slides [aqui](https://slides.com/bianca_rosa/go-clean-code))
 e agora estou quebrando essa apresentação em uma série de posts, começando com esse, para explicar que tipo de código é considerado *limpo* em Go. A motivação é dividir um pouco após anos de escrita de código em Go sobre as práticas consideradas boas / ruins.
 
 Minha opinião modesta é que codigo limpo é *mais* do que uma série de Design Patterns ou princípios SOLID. Focamos muito nessas coisas e às vezes esquecemos em como escrever código que é facil de ser compreendido por outras pessoas que sabem programar nessa linguagem. Então eu sempre começo pelo *styleguide* da linguagem.
 
-Eu tive muita dificuldade quando descobri que [nomes de variáveis em Go devem ser pequenos ao invés de grandes](https://github.com/golang/go/wiki/CodeReviewComments#variable-names). Reclamei um pouco com meus amiguinhos de trabalho, disse por aí que era um absurdo e muito estúpido. Eu estava sofrendo pelo fato de que sempre, sempre, desde que eu tinha lá meus quinze anos de idade e estava aprendendo a escrever código, meus professores me falaram pra escrever nomes que *façam sentido* e sejam *descritíveis*. Exemplos sempre saem de um livro de Java com um nome bastante descritivo para um método. 
+Eu tive muita dificuldade quando descobri que [nomes de variáveis em Go devem ser pequenos ao invés de grandes](https://github.com/golang/go/wiki/CodeReviewComments#variable-names). Reclamei um pouco com meus amiguinhos de trabalho, disse por aí que era um absurdo e muito estúpido. Eu estava sofrendo pelo fato de que sempre, sempre, desde que eu tinha lá meus quinze anos de idade e estava aprendendo a escrever código, meus professores me falaram pra escrever nomes que *façam sentido* e sejam *descritíveis*. Exemplos sempre saem de um livro de Java com um nome bastante descritivo para um método.
 
 Quando você vê [as notas de Rob Rike sobre seu estilo de programação](https://www.lysator.liu.se/c/pikestyle.html), ele pontua que: "Tamanho não é virtude de um nome; clareza de expressão *é*." (na seção **Variable names**).
 

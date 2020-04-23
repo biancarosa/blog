@@ -14,7 +14,7 @@ author = "@__biancarosa"
 
 Hi.
 
-I spoke about Go and Clean Code in a couple of meetups and at the last Gophercon Brasil in 2019 (slides [here](https://slides.com/biancarosa__/go-clean-code), in Portuguese) and I am now breaking the presentation in a series of posts, starting with this one, to explain what kind code is considered *clean* in Go. The motivation behind this is to share a little after years of writing Go code on what kind of practices are considered good / bad.
+I spoke about Go and Clean Code in a couple of meetups and at the last Gophercon Brasil in 2019 (slides [here](https://slides.com/bianca_rosa/go-clean-code), in Portuguese) and I am now breaking the presentation in a series of posts, starting with this one, to explain what kind code is considered *clean* in Go. The motivation behind this is to share a little after years of writing Go code on what kind of practices are considered good / bad.
 
 My very humble opinion is that a clean code is *more* than just a series of Design Patterns or SOLID principles. We often focus on these things and we forget about what's like to write a code that is easy to understand for other programmers in that particular programming language. So I always start with the language styleguide.
 

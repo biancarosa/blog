@@ -8,13 +8,13 @@ author = "@__biancarosa"
 
 - [Otimizando imagens docker com multi-stage builds](https://slides.com/bianca_rosa/otimizando-imagens-docker-com-multi-stage-builds) - Docker Rio Meetup, Remote, 23/04/2020
 
-- [Python On Kubernetes](https://slides.com/biancarosa__/python-on-kubernetes#/) - Python Brasil 2019, Ribeirão Preto - SP, 07/09/2019
+- [Python On Kubernetes](https://slides.com/bianca_rosa/python-on-kubernetes#/) - Python Brasil 2019, Ribeirão Preto - SP, 07/09/2019
 
-- [Processando milhões de mensagens com Python e Kubernetes](https://slides.com/biancarosa__/consumindo-msgs-python-k8s#/) - PyladiesBR Conf, São Paulo - SP, 26/10/2019
+- [Processando milhões de mensagens com Python e Kubernetes](https://slides.com/bianca_rosa/consumindo-msgs-python-k8s#/) - PyladiesBR Conf, São Paulo - SP, 26/10/2019
 
-- [Boas Práticas & Clean Code com Go](https://slides.com/biancarosa__/go-clean-code#/) - Gophercon BR, Florianópolis - SC, 28/09/2019
+- [Boas Práticas & Clean Code com Go](https://slides.com/bianca_rosa/go-clean-code#/) - Gophercon BR, Florianópolis - SC, 28/09/2019
 
-- [Keynote - FlaskConf 2019](https://slides.com/biancarosa__/flaskconf2o1i#/) - FlaskConf, Florianópolis - SC, 07/09/2019
+- [Keynote - FlaskConf 2019](https://slides.com/bianca_rosa/flaskconf2o1i#/) - FlaskConf, Florianópolis - SC, 07/09/2019
 
 - [Python na Cloud - Serverless, containers, o que escolher?](http://biancarosa.com.br/slides/python-na-cloud.html) - Python Nordeste, Recife - PE, 20/07/2019
 
