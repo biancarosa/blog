@@ -1,5 +1,5 @@
 +++
-title = "Clean Code in Go - Naming Functions and Interfaces"
+title = "Código Limpo em Go - Nomeando Funções e Interfaces"
 tags = [
     "go",
     "development",
@@ -10,12 +10,11 @@ categories = [
     "development"
 ]
 author = "@__biancarosa"
-draft = true
 +++
 
-DISCLAIMER: This has **nothing** to do with a certain famous book that also speaks about Clean Code. Nothing. I'm talking from the experience of writing lots of bad code throughout the years, of lots of research on how to do it better *while writing Go code* and these examples *do not necessarily apply to any other programming language*.
+DISCLAIMER: Esses posts não tem **nada** a ver com um certo livro que fala sobre Código Limpo. Nada. Aqui eu tomo a liberdade de definir o que código limpo, especialmente em Go, baseado na minha própria experiência em escrever muito código uhm, não limpo ao longo dos anos, várias pesquisas que faço pra tornar meu código melhor *enquanto estou escrevendo em Go*. Esses exemplos **provavelmente não se aplicarão diretamente a nenhuma outra linguagem de programação.*.
 
-This is the third post of a series that started [here](https://biancarosa.com.br/posts/go_clean_code_1/) based on a talk I gave about Go and Clean Code(slides [here](https://slides.com/bianca_rosa/go-clean-code), in Portuguese).
+Esse é o segundo post de uma série de posts que começou [aqui](hhttps://biancarosa.com.br/pt/posts/go_clean_code_1/) baseado numa palestra dada sobre Go e Clean Code(slides [aqui](https://slides.com/bianca_rosa/go-clean-code))
 
 I'd like to explore a bit more on the unpopular art of naming functions and interfaces. I am gonna introduce these things very quickly, then I'm gonna talk about a couple of naming conventions for then, and provide a couple of examples alongside with a brief explanation of these examples. As usual, I will provide links to my references.
 
