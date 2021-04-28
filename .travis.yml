@@ -1,27 +1,22 @@
 dist: xenial
 sudo: required
-
 language: node_js
 node_js:
-  - "lts/*"
-
+- lts/*
 install:
-  - wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
-  - sudo dpkg -i hugo*.deb
-
+- wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
+- sudo dpkg -i hugo*.deb
 script:
-  - hugo version # prints the Hugo version, just in case.
-  - hugo # build the website
-
+- hugo version
+- hugo
 deploy:
   skip_cleanup: true
   provider: firebase
   token:
-    secure: "p1EHf+V7sggWifmMUPmZ3rtItnqDzJwWT8pTwUI6F59X71vCLUquJYN/oLpFjrPegQOvvPVXUtQvd91TSCXkcXrnShG4t+8KmjfPA1Ixhd2cl6JlmJCcCDC3oPYTUJfyQZpbhHtT2jTFlT5AuEtqKbwxKhhrVxnuosOsM52KI2FKP1bYRn2HDtN4KuPhLQbwyHLn7SFVL7cS4BseirSXamim8YZm5EIHLzitqD1rpW60vi8e76kVocYajvLTzngSETRSjTIou+1htw0e7JO+jUwfzXIsuaLiWzdwDm3kr4oxW5PXhbQpgwiYtTx7ioFJJo6PzCKdSqLgpRXBZ9fplY/V5UKLmdEfu/JFFRspzuQEC/4XonFu+e/NCKZe+scm+KV3oISENxcIa2cNPCIeABBvVil4BI3B9RX7LmS7R2L61Up5GkK8exuIWeSnagSZLpOH/dZczmTVPixmSjwNxJI+ZWskn2i/sebNoIc1+iKsdSpuypRltBqnpPDkTushwxvCa2eNqkSbHJYoc5lfFDDc/2nxTwryBQ15f2e3NRl8Agb17mNzSHMYNOXZia6lvbzOL468kJg7PS+CzL8Vm8huTcgiYdmJKvDCKbXO/0BQRTTYBxgUAE+pguwFKVzGRPx4QYGC3JNfSLZQtKyXzIIAi/nAa9xCETacvesz6VQ="
+    secure: a6LdfRw6cRRy91yuvt9rMcMs8zys2dXZl61uPlvSwDFxAOgIJvD6Vm2kZmng28qRopB2jrmR9alsjaNa4ZB7uvmM+ZqODY+N8NwDp2dc76tXXzF3YqfNVPtHqtwulSUyOi/WQuX+0cM0ldIdqBMykQtsK9MR66ox+7LMIN2u9gOXRRsckdjc1rjXk5y4yBpZcfJK1eRy+kf2uQXsoZrgKvJYe0pbySyK+T//zPeqwWLyb/qOuUhm9fsQUNMxv4nipnv2BcEk43XOMG3HE4+YZ4zlFZ1dJspnXtDtUwh0rMaX2WQb9fTsQXcliEHCxvxp/j88uB7nm577eOYuhoG1Bh4Oys0unnnydD/Aqr/hyMmAdTFuRH3s2jcCKA4VXPeqCD5mGaI5dZrgOiJxmb0ai5PfOoFFugt0N+JoZm9PsOvSz6OaU1NCnrZ2x0L+jdtyEK3LxH4IRuNtNrIkMzuM3j9dzSmnv9VNf06lpLpvFM/WVDVI5mGnDWFRQ0rsBcFTwrmizNvpI5ft4z8S0hAHBLPZSE103l1NgRNL2THdsUpKULf0ZuEjEpE1rjndVwWLAz/vYmteEJCxGK8sfFoa2A20bxkSpLspBXNcDW1l7B3wmp+lvuwQgH2tKzPA5A/Y0kGA7ddCCCfVi9rPTSZ9cyL7gjh0EKKtMQp+eT6kqSI=
   on:
     branch: master
-
 env:
   global:
-    - PRODUCTION=true
-    - HUGO_RELEASE=0.63.1
+  - PRODUCTION=true
+  - HUGO_RELEASE=0.63.1
