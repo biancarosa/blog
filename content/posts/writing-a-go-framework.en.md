@@ -9,23 +9,22 @@ tags = [
 	"framework",
 	"backend"
 ]
-date = "2021-02-16"
+date = "2022-02-16"
 categories = [
     "development"
 ]
 author = "@__biancarosa"
-draft = true
 +++
 
 Hello folks!
 
 While working at [Red Hat](https://www.redhat.com) I had the awesome opportunity to brush up my Go skills on a daily basis again, and I stumbled across a lot of interesting technical problems.
 
-One of these problems struck my attention so much that I started playing with it on my free time and I came up with [ez](https://github.com/biancarosa/ez). This is a pet project, but I wanted to let people know I'm on it in case its going to be useful for someone else and/or if you wanna get involved and contribute!
+One of these problems struck my attention so much that I started playing with it on my free time and I came up with **[ez](https://github.com/biancarosa/ez)**. This is a pet project, but I wanted to let people know I'm on it in case its going to be useful for someone else and/or if you wanna get involved and contribute!
 
 My main motivator is that I like writing code for web APIs but I want API docs to be automatically generated for them. I do not want my docs to generate code - quite the opposite -, and most of the current robust solutions for Go provide that but I haven't found one that generates docs from the code properly. Feel free to comment, or reach out to me if you know though! Always happy to know I did a bad search.
 
-To solve that problem, Ez (comes from easy. yes it's cheesy.) is on the way. So far, the use-case scenario that I have for Ez is...
+To solve that problem, **[ez](https://github.com/biancarosa/ez)** (comes from easy. yes it's cheesy.) is on the way. So far, the use-case scenario that I have for **[ez](https://github.com/biancarosa/ez)** is...
 {{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
 func main() {
 	server := ez.New(&http.Server{
