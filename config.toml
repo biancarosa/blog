@@ -13,7 +13,7 @@ disqusShortname = "biancarosablog"
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 10
 
   # show selector to switch language
   showLanguageSelector = true
@@ -48,6 +48,16 @@ disqusShortname = "biancarosablog"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "blog-en"
+        name = "blog"
+        url = "/"
+
+      [[languages.en.menu.main]]
+        identifier = "blog-pt"
+        name = "blog (pt)"
+        url = "/pt"
+
+      [[languages.en.menu.main]]
         identifier = "about"
         name = "about me"
         url = "/about"
@@ -73,8 +83,18 @@ disqusShortname = "biancarosablog"
 
     [languages.pt.menu]
       [[languages.pt.menu.main]]
+        identifier = "blog-pt"
+        name = "blog"
+        url = "/pt"
+
+      [[languages.pt.menu.main]]
+        identifier = "blog-en"
+        name = "blog (en)"
+        url = "/"
+
+      [[languages.pt.menu.main]]
         identifier = "about"
-        name = "sobre mim"
+        name = "sobre mim (en)"
         url = "/about"
 
       [[languages.pt.menu.main]]
