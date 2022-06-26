@@ -1,5 +1,5 @@
 +++
-title = "Supporting my believes"
+title = "Supporting my beliefs"
 date = "2022-22-26"
 author = "@__biancarosa"
 +++
