@@ -1,11 +1,18 @@
 +++
-title = "talks"
+title = "Slides and videos of talks and presentations"
 date = "2020-01-26"
 author = "@__biancarosa"
 +++
 
-# Talks
+I do these because I enjoy doing community work and spreading knowledge, on top of improving my soft skills and my anxiety about speaking in public. 
+I mainly enjoy doing deep dive technical talks, the thrill of live coding and connecting with people who are interested in the same subjects.
 
+## Talks in English
+
+- Observability-Driven Development - [Slides](https://slides.com/bianca_rosa/observability-driven-development) - [Video](https://www.youtube.com/watch?v=lxyrmsxY2KA) - PyCon US, Salt Lake City - UT - US, 30/04/2022
+- [Otimizando imagens docker com multi-stage builds](https://slides.com/bianca_rosa/otimizando-imagens-docker-com-multi-stage-builds) - [Video](https://www.youtube.com/watch?v=oDOiW1RSdnE) - DevConf.cz, Remote, 29/01/2022
+
+## PT-BR talks :)
 - [Otimizando imagens docker com multi-stage builds](https://slides.com/bianca_rosa/otimizando-imagens-docker-com-multi-stage-builds) - Docker Rio Meetup, Remote, 23/04/2020
 
 - [Python On Kubernetes](https://slides.com/bianca_rosa/python-on-kubernetes#/) - Python Brasil 2019, Ribeirão Preto - SP, 07/09/2019

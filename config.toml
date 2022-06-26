@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "terminal"
 paginate = 5
 googleAnalytics = "UA-44665454-3"
-disqusShortname = "biancarosablog"
+# disqusShortname = "biancarosablog"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -35,8 +35,8 @@ disqusShortname = "biancarosablog"
   [languages.en]
     languageName = "english"
     title = "biancarosa.com.br"
-    subtitle = ""
-    keywords = ""
+    subtitle = "senior backend & infrastructure engineer"
+    keywords = "senior,developer,engineer,backend,infrastructure,infra,devops,staff,open source,startup"
     copyright = ""
     menuMore = "Show more"
     readMore = "Read more"
@@ -53,25 +53,30 @@ disqusShortname = "biancarosablog"
         url = "/"
 
       [[languages.en.menu.main]]
-        identifier = "blog-pt"
-        name = "blog (pt)"
-        url = "/pt"
-
-      [[languages.en.menu.main]]
         identifier = "about"
         name = "about me"
         url = "/about"
 
       [[languages.en.menu.main]]
         identifier = "talks"
-        name = "talks"
+        name = "talks & presentations"
         url = "/talks"
+
+      [[languages.en.menu.main]]
+        identifier = "hire"
+        name = "hire me"
+        url = "/hire"
+
+      [[languages.en.menu.main]]
+        identifier = "supporting"
+        name = "supporting my beliefs"
+        url = "/supporting"
 
   [languages.pt]
     languageName = "português [brasil]"
     title = "biancarosa.com.br"
-    subtitle = ""
-    keywords = ""
+    subtitle = "senior backend & infrastructure engineer"
+    keywords = "senior,developer,engineer,backend,infrastructure,infra,devops,staff,open source,startup"
     copyright = ""
     menuMore = "ver mais"
     readMore = "ler mais"
@@ -88,16 +93,6 @@ disqusShortname = "biancarosablog"
         url = "/pt"
 
       [[languages.pt.menu.main]]
-        identifier = "blog-en"
-        name = "blog (en)"
-        url = "/"
-
-      [[languages.pt.menu.main]]
-        identifier = "about"
-        name = "sobre mim (en)"
-        url = "/about"
-
-      [[languages.pt.menu.main]]
         identifier = "talks"
-        name = "talks"
+        name = "palestras & apresentações"
         url = "/talks"
