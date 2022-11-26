@@ -21,7 +21,7 @@ O curso [Aprenda Go](https://www.youtube.com/@AprendaGo), feito por [Vee Korbes]
 
 A [Lauren](https://twitter.com/larienmf) também toca um projeto de tradução e disponibiliza o conteúdo do [Aprenda Go com Testes](https://larien.gitbook.io/aprenda-go-com-testes/) pra quem curte um conteúdo escrito!
 
-Pra quem gosta de conteúdo prático, o conteúdo chamado ["A Tour Of Go"](https://go.dev/tour/) é um conteúdo oficial dos desenvolvedores da linguagem que possui um terminal web pra você usar de playground.
+Pra quem gosta de conteúdo prático, o conteúdo chamado ["A Tour Of Go"](https://go.dev/tour/) é um conteúdo oficial dos desenvolvedores da linguagem que possui um terminal web pra você usar de playground. Tem a tradução em português (aqui)[https://go-tour-br.appspot.com] também!
 
 Além disso, o livro chamado [A Linguagem de Programação Go](https://novatec.com.br/livros/linguagem-de-programacao-go/) é um excelente livro seja para ler inteiro ou para ter como referência.
 
