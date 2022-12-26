@@ -3,7 +3,8 @@
 }
 
 .container {
-    max-width: 65%;
+    max-width: 75%;
+    width: 75%;
 }
 
 .container.right-side {
