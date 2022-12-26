@@ -10,7 +10,7 @@ I mainly enjoy doing deep dive technical talks, the thrill of live coding and co
 ## Talks in English
 
 - Observability-Driven Development - [Slides](https://slides.com/bianca_rosa/observability-driven-development) - [Video](https://www.youtube.com/watch?v=lxyrmsxY2KA) - PyCon US, Salt Lake City - UT - US, 30/04/2022
-- [Otimizando imagens docker com multi-stage builds](https://slides.com/bianca_rosa/otimizando-imagens-docker-com-multi-stage-builds) - [Video](https://www.youtube.com/watch?v=oDOiW1RSdnE) - DevConf.cz, Remote, 29/01/2022
+- Shutting down goroutines gracefully- [Slides](https://slides.com/bianca_rosa/shutting-down-goroutines-gracefully) - DevConf.cz, Remote, 29/01/2022
 
 ## PT-BR talks :)
 - [Otimizando imagens docker com multi-stage builds](https://slides.com/bianca_rosa/otimizando-imagens-docker-com-multi-stage-builds) - Docker Rio Meetup, Remote, 23/04/2020
