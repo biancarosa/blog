@@ -1,3 +1,15 @@
 .header__inner p {
     margin: 0;
 }
+
+.container {
+    max-width: 65%;
+}
+
+.container.right-side {
+    max-width: 20%;
+}
+
+body {
+    display: flex;
+}
