@@ -10,7 +10,7 @@ googleAnalytics = "UA-44665454-3"
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "green"
+  themeColor = "orange"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 10
