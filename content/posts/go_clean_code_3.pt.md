@@ -10,6 +10,7 @@ categories = [
     "development"
 ]
 author = "@__biancarosa"
+draft = true
 +++
 
 DISCLAIMER: Esses posts não tem **nada** a ver com um certo livro que fala sobre Código Limpo. Nada. Aqui eu tomo a liberdade de definir o que código limpo, especialmente em Go, baseado na minha própria experiência em escrever muito código uhm, não limpo ao longo dos anos, várias pesquisas que faço pra tornar meu código melhor *enquanto estou escrevendo em Go*. Esses exemplos **provavelmente não se aplicarão diretamente a nenhuma outra linguagem de programação.*.

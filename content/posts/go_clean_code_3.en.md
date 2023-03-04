@@ -10,7 +10,6 @@ categories = [
     "development"
 ]
 author = "@__biancarosa"
-draft = true
 +++
 
 DISCLAIMER: This has **nothing** to do with a certain famous book that also speaks about Clean Code. Nothing. I'm talking from the experience of writing lots of bad code throughout the years, of lots of research on how to do it better *while writing Go code* and these examples *do not necessarily apply to any other programming language*.

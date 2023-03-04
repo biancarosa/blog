@@ -10,7 +10,6 @@ categories = [
     "development"
 ]
 author = "@__biancarosa"
-draft = true
 +++
 
 Esse é o segundo post de uma série de posts que começou [aqui](hhttps://biancarosa.com.br/pt/posts/go_clean_code_1/) baseado numa palestra dada sobre Go e Clean Code(slides [aqui](https://slides.com/bianca_rosa/go-clean-code))
