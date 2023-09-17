@@ -17,60 +17,63 @@ DISCLAIMER: Esses posts não tem **nada** a ver com um certo livro que fala sobr
 
 Esse é o segundo post de uma série de posts que começou [aqui](hhttps://biancarosa.com.br/pt/posts/go_clean_code_1/) baseado numa palestra dada sobre Go e Clean Code(slides [aqui](https://slides.com/bianca_rosa/go-clean-code))
 
-I'd like to explore a bit more on the unpopular art of naming functions and interfaces. I am gonna introduce these things very quickly, then I'm gonna talk about a couple of naming conventions for then, and provide a couple of examples alongside with a brief explanation of these examples. As usual, I will provide links to my references.
+Aqui eu quero explorar mais a arte não-tão popular de nomear funções e interfaces. Vou introduzir esses dois assuntos brevemente, falar sobre convenções de nomes para eles, e então prover alguns examplos com algumas explicações. E sempre com os links para as minhas referências :) 
 
-We'll always use **mixedCaps** or **MixedCaps**, depending on whether we want to [export](https://tour.golang.org/basics/3) a name or not.
+A gente vai usar sempre **mixedCaps** ou **MixedCaps**, dependendo se queremos [exportar](https://tour.golang.org/basics/3) uma função/interface ou não.
 
-The basic rules of naming things should be applied here: be concise, be descriptive. Pick *short and meaningful names*.
+A regra básica de nomear coisas deve ser aplicada aqui: seja conciso, descritivo, escolha nomes *pequenos e que representem algum significado*.
+# Funções
 
-# Functions
+Funções em Go são como funções na maioria das linguagens de programação. Elas realizam uma ação com base em um número específico de argumentos e podem ou não retornar valores. Elas podem ser [funções simples](https://gobyexample.com/functions), ter [múltiplos valores de retorno](https://gobyexample.com/multiple-return-values), podem ser [funções variadicas](https://gobyexample.com/variadic-functions), [funções recursivas](https://gobyexample.com/recursion) ou até mesmo [funções anônimas, também conhecidas como closures](https://gobyexample.com/closures).
 
-Functions in Go are like functions in pretty much every programming language. They do something given a specific numbers of arguments and may or may not return values. They can be [simple functions](https://gobyexample.com/functions), have [multiple return values](https://gobyexample.com/multiple-return-values), they can be [variadic function](https://gobyexample.com/variadic-functions), [recursive functions](https://gobyexample.com/recursion) or even [anonymous functions also known as closures](https://gobyexample.com/closures).
+## Getters e Setters
 
-## Getters and Setters
+É muito comum, em várias linguagens, escrever getters e setters para propriedades que não são exportadas ou que requerem um tratamento especial.
 
-It is very common, in several languages, to write getters and setters for properties that are not exported or that require a special treatment. 
+Em Go, se quisermos **obter** a propriedade *owner* de um objeto, é assim que queremos fazer:
 
-In Go, if we want to **get** the *owner* property of an object, this is how we want to do it:
-
-{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
+```go
 obj.Owner()
-{{< / highlight >}}
+```
 
-But if we want to **set** the *owner* property, we want to do:
+Mas se quisermos **definir** a propriedade *owner*, queremos fazer:
 
-{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
+```go
 obj.SetOwner(owner)
-{{< / highlight >}}
+```
 
-The most shockingly news about this approach is the lack of the word *get* on the **getter**. Its use is discouraged by [Effective Go](https://golang.org/doc/effective_go.html#Getters)
+A notícia mais surpreendente sobre essa abordagem é a falta da palavra *get* no **getter**. Seu uso é desencorajado por [Effective Go](https://golang.org/doc/effective_go.html#Getters).
 
 # Interfaces
 
-An Interface type holds a set of method signatures. Go has thing very cool thing that for a thing to be of the same type of an Interface, it doesn't have to explicitly reference it - following the same set of method signatures is enough!
+Um tipo de Interface mantém um conjunto de assinaturas de métodos. Go tem algo muito legal em que, para uma coisa ser do mesmo tipo de uma Interface, ela não precisa se referenciar explicitamente a ela - seguir o mesmo conjunto de assinaturas de métodos é suficiente!
 
-We often want to keep our interfaces tiny and with a very clear purpose. Right? I'm judging you if you make your interfaces do more than one thing, but don't be mistaken, I do it more often than I'd like to admit.
+Frequentemente, queremos manter nossas interfaces pequenas e com um propósito muito claro. Certo? Estou julgando você se fizer suas interfaces fazerem mais do que uma coisa, mas não se engane, faço isso mais vezes do que gostaria de admitir.
 
-When we have interfaces that have only one method, we adopt, by convention, the name of the method + the suffix -er. The following interface names are pretty dope:
+Quando temos interfaces com apenas um método, adotamos, por convenção, o nome do método + o sufixo -er (em inglês) ou -or (em português). Os seguintes nomes de interfaces são bem legais:
 
-- Reader
-- Writer
-- Formatter
-- Notifier
+- Reader (Leitor)
+- Writer (Escritor)
+- Formatter (Formatador)
+- Notifier (Notificador)
 
-They normally look like that:
-{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
+Normalmente, elas se parecem com isso:
+
+```go
 type Caller interface {
 	Call()
 }
 
 type Notifier interface {
 	Notify()
-}{{< / highlight >}}
+}
+```
+
+Em português, é mais difícil seguir essa regra - é possível tentar, mas nem sempre vai funcionar bem - mas a maioria das pessoas opta por escrever seu código em inglês.
 
 ["Sometimes the result isn't correct English, but we do it anyway. Sometimes we use English to make it nicer." -  Andrew Gerrand, What's in a name?](https://talks.golang.org/2014/names.slide#13)
 
-# Cool reference links
+# Links de referência
 
 - https://talks.golang.org/2014/names.slide#13
 - https://golang.org/doc/effective_go.html#Getters
@@ -78,7 +81,7 @@ type Notifier interface {
 - https://github.com/golang/go/wiki/CodeReviewComments#interfaces
 - https://medium.com/better-programming/naming-conventions-in-go-short-but-descriptive-1fa7c6d2f32a
 
-# Past Posts
+# Posts Anteriores
 
-- [Clean Code in Go - Writing good package names](../go_clean_code_2/)
-- [Clean Code in Go - Are short variable names a good practice?](../go_clean_code_1/)
+- [Código Limpo em Go - Escrevendo bons nomes de pacote](../go_clean_code_2/)
+- [Código Limpo em Go - Nomes de variáveis curtos são uma boa prática?](../go_clean_code_1/)

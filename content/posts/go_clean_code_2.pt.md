@@ -62,4 +62,4 @@ Bons nomes de pacotes são *muito* importantes para escrever um código limpo e 
 
 # Past Posts
 
-- [Clean Code in Go - Are short variable names a good practice?](../go_clean_code_1/)
+- [Código Limpo em Go - Nomes de variáveis curtos são uma boa prática?](../go_clean_code_1/)
