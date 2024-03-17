@@ -63,11 +63,6 @@ googleAnalytics = "UA-44665454-3"
         url = "/talks"
 
       [[languages.en.menu.main]]
-        identifier = "hire"
-        name = "hire me"
-        url = "/hire"
-
-      [[languages.en.menu.main]]
         identifier = "supporting"
         name = "supporting my beliefs"
         url = "/supporting"
