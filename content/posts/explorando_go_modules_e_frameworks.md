@@ -13,4 +13,4 @@ categories: [
 ]
 author: "@__biancarosa"
 ---
-This post is available in portuguese (here)[https://biancarosa.com.br/posts/pt/explorando_go_modules_e_frameworks/].
+This post is available in portuguese [here](https://biancarosa.com.br/posts/pt/explorando_go_modules_e_frameworks/).
