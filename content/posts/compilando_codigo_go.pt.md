@@ -1,6 +1,6 @@
 ---
-title: "Programando em Go - por onde devo começar?"
-description: "Pra quem busca idéias de conteúdo pra iniciar a programar em Go!"
+title: "Compilando Código Go"
+description: "Detalhes do processo de compilação de código Go"
 tags: [
     "development",
     "go",
