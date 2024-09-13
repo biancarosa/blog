@@ -7,7 +7,7 @@ tags: [
     "career",
     "tech"
 ]
-date: "2022-11-26"
+date: "2024-09-13"
 categories: [
     "career"
 ]
