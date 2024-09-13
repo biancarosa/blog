@@ -1,6 +1,6 @@
 ---
 title: "Explorando Go Modules e Frameworks - Fuego"
-description: "Um resumo de uma live coding session sobre um framework Go que auto-gera open api spec"
+description: "a live coding session about a framework Go that autogenerates open api spec"
 tags: [
     "go",
     "golang",
