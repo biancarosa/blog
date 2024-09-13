@@ -96,3 +96,8 @@ googleAnalytics = "UA-44665454-3"
         identifier = "talks"
         name = "palestras & apresentações"
         url = "/talks"
+
+      [[languages.pt.menu.main]]
+        identifier = "aprenda-go"
+        name = "aprendago.com.br"
+        url = "https://aprendago.com.br"

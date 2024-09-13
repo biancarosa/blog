@@ -1,11 +1,9 @@
 ---
 title: "Compilando Código Go"
-description: "Detalhes do processo de compilação de código Go"
+description: "O processo de compilação de um código Go"
 tags: [
     "development",
     "go",
-    "career",
-    "tech"
 ]
 date: "2024-09-13"
 categories: [
@@ -15,9 +13,9 @@ author: "@__biancarosa"
 ---
 # Compilando Código Go
 
-Go oferece várias vantagens para desenvolvedores, especialmente em termos de eficiência e portabilidade. 
+Go oferece muitas vantagens para desenvolvedores, especialmente em termos de eficiência e portabilidade. 
 
-Como Go uma linguagem compilada, vale a pena falarmos um pouco sobre esse processo e o que ele significa. Além de como fazer, e mostrar alguns exemplos!
+Como Go é uma linguagem compilada, vale a pena falarmos um pouco sobre esse processo e o que ele significa. Além de como fazer, e mostrar alguns exemplos!
 
 ## Fundamentos
 
@@ -31,9 +29,7 @@ Comandos básicos de compilação:
 - `go run main.go`: Compila e executa o arquivo.
 - `go build`: Compila o código e gera um executável.
 
-## Compilação Cruzada
-
-Uma característica notável do Go é a facilidade de compilação cruzada. Isso permite compilar código para diferentes sistemas operacionais e arquiteturas a partir de uma única máquina.
+Uma característica notável do Go é a facilidade de compilação cruzada - isso é, para diferentes sistemas operacionais e arquiteturas a partir de uma única máquina.
 
 Variáveis importantes:
 - `GOOS`: Define o sistema operacional alvo (ex: linux, windows, darwin)
@@ -43,6 +39,12 @@ Exemplo de comando:
 ```
 GOOS=windows GOARCH=amd64 go build
 ```
+
+Algumas outras vantagens que temos ao usar Go é que...
+
+1. Os binários (executáveis gerados) são autocontidos: Incluem a maioria das dependências necessárias.
+2. Compilação eficiente: Processo rápido, e o compilador é extremamente útil para entender erros no nosso programa.
+3. Suporte multiplataforma: Facilita o desenvolvimento para diferentes sistemas operacionais.
 
 ## Aplicações Práticas
 
@@ -114,13 +116,3 @@ Compilação de plugins:
 ```
 go build -buildmode=plugin -o myplugin.so myplugin.go
 ```
-
-## Vantagens
-
-1. Binários Autocontidos: Incluem a maioria das dependências necessárias.
-2. Compilação Eficiente: Processo geralmente rápido.
-3. Suporte Multiplataforma: Facilita o desenvolvimento para diferentes sistemas.
-
-## Conclusão
-
-A compilação no nosso código Go oferece uma abordagem eficiente para o desenvolvimento de software, especialmente para projetos que requerem portabilidade entre diferentes sistemas operacionais e arquiteturas. Suas características facilitam a criação de aplicativos standalone, microserviços e soluções para sistemas embarcados.
