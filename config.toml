@@ -1,7 +1,16 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
-paginate = 5
+
+# Hugo 0.128+ requires pagination section
+[pagination]
+  pagerSize = 5
+
+# Allow raw HTML in markdown (for embeds like Gists, iframes)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Hugo 0.120+ requires services configuration
 [services]
