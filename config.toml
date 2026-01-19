@@ -67,6 +67,36 @@ googleAnalytics = "UA-44665454-3"
         name = "tech content recommendations"
         url = "/recommendations"
 
+      [[languages.en.menu.main]]
+        identifier = "linkedin"
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/biarm"
+
+      [[languages.en.menu.main]]
+        identifier = "x"
+        name = "x"
+        url = "https://twitter.com/__biancarosa"
+
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "github"
+        url = "https://github.com/biancarosa"
+
+      [[languages.en.menu.main]]
+        identifier = "bluesky"
+        name = "bluesky"
+        url = "https://bsky.app/profile/bianca-rosa.bsky.social"
+
+      [[languages.en.menu.main]]
+        identifier = "substack"
+        name = "substack"
+        url = "https://backendengineeringadventures.substack.com"
+
+      [[languages.en.menu.main]]
+        identifier = "fediverse"
+        name = "fediverse"
+        url = "https://hachyderm.io/@bia"
+
   [languages.pt]
     languageName = "português [brasil]"
     title = "biancarosa.com.br"
@@ -96,3 +126,33 @@ googleAnalytics = "UA-44665454-3"
         identifier = "aprenda-go"
         name = "aprendago.com.br"
         url = "https://aprendago.com.br"
+
+      [[languages.pt.menu.main]]
+        identifier = "linkedin"
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/biarm"
+
+      [[languages.pt.menu.main]]
+        identifier = "x"
+        name = "x"
+        url = "https://twitter.com/__biancarosa"
+
+      [[languages.pt.menu.main]]
+        identifier = "github"
+        name = "github"
+        url = "https://github.com/biancarosa"
+
+      [[languages.pt.menu.main]]
+        identifier = "bluesky"
+        name = "bluesky"
+        url = "https://bsky.app/profile/bianca-rosa.bsky.social"
+
+      [[languages.pt.menu.main]]
+        identifier = "substack"
+        name = "substack"
+        url = "https://backendengineeringadventures.substack.com"
+
+      [[languages.pt.menu.main]]
+        identifier = "fediverse"
+        name = "fediverse"
+        url = "https://hachyderm.io/@bia"
