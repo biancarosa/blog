@@ -82,6 +82,11 @@ theme = "terminal"
         url = "/recommendations"
 
       [[languages.en.menu.main]]
+        identifier = "x"
+        name = "x"
+        url = "https://twitter.com/__biancarosa"
+
+      [[languages.en.menu.main]]
         identifier = "bluesky"
         name = "bluesky"
         url = "https://bsky.app/profile/bianca-rosa.bsky.social"
@@ -105,11 +110,6 @@ theme = "terminal"
         identifier = "substack"
         name = "substack"
         url = "https://backendengineeringadventures.substack.com"
-
-      [[languages.en.menu.main]]
-        identifier = "x"
-        name = "x"
-        url = "https://twitter.com/__biancarosa"
 
   [languages.pt]
     languageName = "português [brasil]"
