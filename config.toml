@@ -81,7 +81,7 @@ theme = "terminal"
 
       [[languages.en.menu.main]]
         identifier = "recommendations"
-        name = "tech content recommendations"
+        name = "recs"
         url = "/recommendations"
         weight = 4
 
