@@ -65,51 +65,61 @@ theme = "terminal"
         identifier = "about"
         name = "_self"
         url = "/about"
+        weight = 1
 
       [[languages.en.menu.main]]
         identifier = "blog-en"
         name = "blog"
         url = "/"
+        weight = 2
 
       [[languages.en.menu.main]]
         identifier = "talks"
         name = "talks"
         url = "/talks"
+        weight = 3
 
       [[languages.en.menu.main]]
         identifier = "recommendations"
         name = "tech content recommendations"
         url = "/recommendations"
+        weight = 4
 
       [[languages.en.menu.main]]
         identifier = "x"
         name = "x"
         url = "https://twitter.com/__biancarosa"
+        weight = 5
 
       [[languages.en.menu.main]]
         identifier = "bluesky"
         name = "bluesky"
         url = "https://bsky.app/profile/bianca-rosa.bsky.social"
+        weight = 6
 
       [[languages.en.menu.main]]
         identifier = "fediverse"
         name = "fediverse"
         url = "https://hachyderm.io/@bia"
+        weight = 7
 
       [[languages.en.menu.main]]
         identifier = "github"
         name = "github"
         url = "https://github.com/biancarosa"
+        weight = 8
 
       [[languages.en.menu.main]]
         identifier = "linkedin"
         name = "linkedin"
         url = "https://www.linkedin.com/in/biarm"
+        weight = 9
 
       [[languages.en.menu.main]]
         identifier = "substack"
         name = "substack"
         url = "https://backendengineeringadventures.substack.com"
+        weight = 10
 
   [languages.pt]
     languageName = "português [brasil]"
