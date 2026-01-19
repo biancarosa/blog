@@ -62,54 +62,64 @@ theme = "terminal"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "about"
+        name = "_self"
+        url = "/about"
+        weight = 1
+
+      [[languages.en.menu.main]]
         identifier = "blog-en"
         name = "blog"
         url = "/"
-
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "about me"
-        url = "/about"
+        weight = 2
 
       [[languages.en.menu.main]]
         identifier = "talks"
-        name = "talks & presentations"
+        name = "talks"
         url = "/talks"
+        weight = 3
 
       [[languages.en.menu.main]]
         identifier = "recommendations"
-        name = "tech content recommendations"
+        name = "recs"
         url = "/recommendations"
-
-      [[languages.en.menu.main]]
-        identifier = "linkedin"
-        name = "linkedin"
-        url = "https://www.linkedin.com/in/biarm"
+        weight = 4
 
       [[languages.en.menu.main]]
         identifier = "x"
         name = "x"
         url = "https://twitter.com/__biancarosa"
-
-      [[languages.en.menu.main]]
-        identifier = "github"
-        name = "github"
-        url = "https://github.com/biancarosa"
+        weight = 5
 
       [[languages.en.menu.main]]
         identifier = "bluesky"
         name = "bluesky"
         url = "https://bsky.app/profile/bianca-rosa.bsky.social"
-
-      [[languages.en.menu.main]]
-        identifier = "substack"
-        name = "substack"
-        url = "https://backendengineeringadventures.substack.com"
+        weight = 6
 
       [[languages.en.menu.main]]
         identifier = "fediverse"
         name = "fediverse"
         url = "https://hachyderm.io/@bia"
+        weight = 7
+
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "github"
+        url = "https://github.com/biancarosa"
+        weight = 8
+
+      [[languages.en.menu.main]]
+        identifier = "linkedin"
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/biarm"
+        weight = 9
+
+      [[languages.en.menu.main]]
+        identifier = "substack"
+        name = "substack"
+        url = "https://backendengineeringadventures.substack.com"
+        weight = 10
 
   [languages.pt]
     languageName = "português [brasil]"
@@ -135,11 +145,6 @@ theme = "terminal"
         identifier = "talks"
         name = "palestras & apresentações"
         url = "/talks"
-
-      [[languages.pt.menu.main]]
-        identifier = "aprenda-go"
-        name = "aprendago.com.br"
-        url = "https://aprendago.com.br"
 
       [[languages.pt.menu.main]]
         identifier = "linkedin"
