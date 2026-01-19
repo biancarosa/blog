@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "blog-da-bia",
     "public": "public",
     "ignore": [
       "firebase.json",
