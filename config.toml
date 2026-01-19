@@ -147,11 +147,6 @@ theme = "terminal"
         url = "/talks"
 
       [[languages.pt.menu.main]]
-        identifier = "aprenda-go"
-        name = "aprendago.com.br"
-        url = "https://aprendago.com.br"
-
-      [[languages.pt.menu.main]]
         identifier = "linkedin"
         name = "linkedin"
         url = "https://www.linkedin.com/in/biarm"

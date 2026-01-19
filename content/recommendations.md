@@ -18,6 +18,7 @@ Staff Engineer: Leadership Beyond the Management Track](https://www.goodreads.co
 
 # Go
 
+- [aprendago.com.br](https://aprendago.com.br) - Go course in Portuguese
 - [Concurrency in Go: Tools and Techniques for Developers](https://www.goodreads.com/book/show/30413199-concurrency-in-go)
 - [The Go Programming Language](https://www.goodreads.com/book/show/25080953-the-go-programming-language)
 
