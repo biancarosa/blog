@@ -62,18 +62,18 @@ theme = "terminal"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "about"
+        name = "_self"
+        url = "/about"
+
+      [[languages.en.menu.main]]
         identifier = "blog-en"
         name = "blog"
         url = "/"
 
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "about me"
-        url = "/about"
-
-      [[languages.en.menu.main]]
         identifier = "talks"
-        name = "talks & presentations"
+        name = "talks"
         url = "/talks"
 
       [[languages.en.menu.main]]
@@ -82,14 +82,14 @@ theme = "terminal"
         url = "/recommendations"
 
       [[languages.en.menu.main]]
-        identifier = "linkedin"
-        name = "linkedin"
-        url = "https://www.linkedin.com/in/biarm"
+        identifier = "bluesky"
+        name = "bluesky"
+        url = "https://bsky.app/profile/bianca-rosa.bsky.social"
 
       [[languages.en.menu.main]]
-        identifier = "x"
-        name = "x"
-        url = "https://twitter.com/__biancarosa"
+        identifier = "fediverse"
+        name = "fediverse"
+        url = "https://hachyderm.io/@bia"
 
       [[languages.en.menu.main]]
         identifier = "github"
@@ -97,9 +97,9 @@ theme = "terminal"
         url = "https://github.com/biancarosa"
 
       [[languages.en.menu.main]]
-        identifier = "bluesky"
-        name = "bluesky"
-        url = "https://bsky.app/profile/bianca-rosa.bsky.social"
+        identifier = "linkedin"
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/biarm"
 
       [[languages.en.menu.main]]
         identifier = "substack"
@@ -107,9 +107,9 @@ theme = "terminal"
         url = "https://backendengineeringadventures.substack.com"
 
       [[languages.en.menu.main]]
-        identifier = "fediverse"
-        name = "fediverse"
-        url = "https://hachyderm.io/@bia"
+        identifier = "x"
+        name = "x"
+        url = "https://twitter.com/__biancarosa"
 
   [languages.pt]
     languageName = "português [brasil]"
