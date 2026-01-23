@@ -10,17 +10,17 @@ I'm Bianca and I'm a professional software developer since 2011 but my first lin
 
 ---
 
-[linkedin](https://www.linkedin.com/in/biarm)
+[bsky](https://bsky.app/profile/bianca-rosa.bsky.social)
 
-[x](https://twitter.com/__biancarosa)
+[fediverse](https://hachyderm.io/@bia)
 
 [github](https://github.com/biancarosa)
 
-[bsky](https://bsky.app/profile/bianca-rosa.bsky.social)
+[linkedin](https://www.linkedin.com/in/biarm)
 
-[substack](backendengineeringadventures.substack.com)
+[substack](https://backendengineeringadventures.substack.com)
 
-[fediverse](https://hachyderm.io/@bia)
+[x](https://twitter.com/__biancarosa)
 
 ---
 

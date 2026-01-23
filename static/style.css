@@ -1,16 +1,28 @@
+:root {
+    --accent: #00E5FF;
+}
+
 .header__inner p {
     margin: 0;
 }
 
-.container {
-    max-width: 75%;
-    width: 75%;
+.right-side-section__header {
+    margin-top: 20px;
 }
 
-.container.right-side {
-    max-width: 20%;
+/* Override badge style to use border instead of filled */
+.right-side-card__badge {
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
 }
 
-body {
-    display: flex;
+/* Make label text use accent color */
+.right-side-card__label {
+    color: var(--accent);
+}
+
+/* Align pagination/read-more button to the right */
+.pagination__buttons {
+    justify-content: flex-end;
 }

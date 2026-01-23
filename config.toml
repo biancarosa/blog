@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "terminal"
+theme = "alt-terminal"
 
 # Hugo 0.128+ requires pagination section
 [pagination]
@@ -23,8 +23,8 @@ theme = "terminal"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
+  # ["orange", "blue", "red", "green", "pink", "turquoise"]
+  themeColor = "turquoise"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 10
@@ -86,39 +86,39 @@ theme = "terminal"
         weight = 4
 
       [[languages.en.menu.main]]
-        identifier = "x"
-        name = "x"
-        url = "https://twitter.com/__biancarosa"
-        weight = 5
-
-      [[languages.en.menu.main]]
         identifier = "bluesky"
         name = "bluesky"
         url = "https://bsky.app/profile/bianca-rosa.bsky.social"
-        weight = 6
+        weight = 5
 
       [[languages.en.menu.main]]
         identifier = "fediverse"
         name = "fediverse"
         url = "https://hachyderm.io/@bia"
-        weight = 7
+        weight = 6
 
       [[languages.en.menu.main]]
         identifier = "github"
         name = "github"
         url = "https://github.com/biancarosa"
-        weight = 8
+        weight = 7
 
       [[languages.en.menu.main]]
         identifier = "linkedin"
         name = "linkedin"
         url = "https://www.linkedin.com/in/biarm"
-        weight = 9
+        weight = 8
 
       [[languages.en.menu.main]]
         identifier = "substack"
         name = "substack"
         url = "https://backendengineeringadventures.substack.com"
+        weight = 9
+
+      [[languages.en.menu.main]]
+        identifier = "x"
+        name = "x"
+        url = "https://twitter.com/__biancarosa"
         weight = 10
 
   [languages.pt]
@@ -147,14 +147,14 @@ theme = "terminal"
         url = "/talks"
 
       [[languages.pt.menu.main]]
-        identifier = "linkedin"
-        name = "linkedin"
-        url = "https://www.linkedin.com/in/biarm"
+        identifier = "bluesky"
+        name = "bluesky"
+        url = "https://bsky.app/profile/bianca-rosa.bsky.social"
 
       [[languages.pt.menu.main]]
-        identifier = "x"
-        name = "x"
-        url = "https://twitter.com/__biancarosa"
+        identifier = "fediverse"
+        name = "fediverse"
+        url = "https://hachyderm.io/@bia"
 
       [[languages.pt.menu.main]]
         identifier = "github"
@@ -162,9 +162,9 @@ theme = "terminal"
         url = "https://github.com/biancarosa"
 
       [[languages.pt.menu.main]]
-        identifier = "bluesky"
-        name = "bluesky"
-        url = "https://bsky.app/profile/bianca-rosa.bsky.social"
+        identifier = "linkedin"
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/biarm"
 
       [[languages.pt.menu.main]]
         identifier = "substack"
@@ -172,6 +172,6 @@ theme = "terminal"
         url = "https://backendengineeringadventures.substack.com"
 
       [[languages.pt.menu.main]]
-        identifier = "fediverse"
-        name = "fediverse"
-        url = "https://hachyderm.io/@bia"
+        identifier = "x"
+        name = "x"
+        url = "https://twitter.com/__biancarosa"

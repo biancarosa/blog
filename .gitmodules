@@ -1,6 +1,6 @@
-[submodule "themes/terminal"]
-	path = themes/terminal
-	url = https://github.com/biancarosa/hugo-theme-terminal.git
 [submodule "static/slides"]
 	path = static/slides
 	url = https://github.com/biancarosa/slides.git
+[submodule "themes/alt-terminal"]
+	path = themes/alt-terminal
+	url = https://github.com/biancarosa/hugo-theme-alt-terminal.git
